@@ -1,0 +1,74 @@
+apiVersion: v1
+entries:
+  qbittorrent:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Update ghcr.io/linuxserver/qbittorrent docker tag to version-5.0.3-r0
+      artifacthub.io/links: |-
+        - name: App Source
+          url: https://github.com/qbittorrent/qBittorrent
+        - name: Container Source
+          url: https://github.com/linuxserver/docker-qbittorrent
+        - name: Chart Source
+          url: https://github.com/gabe565/charts/tree/main/charts/qbittorrent
+    apiVersion: v2
+    appVersion: version-5.0.3-r0
+    created: "2025-03-30T15:47:40.95325+02:00"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts
+      version: ~3.7.3
+    description: The qBittorrent project aims to provide an open-source software alternative
+      to µTorrent.
+    digest: 7dcc96426d8d49ce5f5a3c2fd93da938e8380474bbefad094ec2257833e777b7
+    home: https://charts.gabe565.com/charts/qbittorrent/
+    icon: https://raw.githubusercontent.com/qbittorrent/qBittorrent/master/src/icons/qbittorrent-tray.svg
+    keywords:
+    - torrent
+    - bittorrent
+    kubeVersion: '>=1.22.0-0'
+    name: qbittorrent
+    sources:
+    - https://github.com/qbittorrent/qBittorrent
+    - https://github.com/linuxserver/docker-qbittorrent
+    type: application
+    urls:
+    - https://vincentkelleher.github.io/gabe565-charts/qbittorrent-0.5.0.tgz
+    version: 0.5.0
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Update ghcr.io/linuxserver/qbittorrent docker tag to version-5.0.3-r0
+      artifacthub.io/links: |-
+        - name: App Source
+          url: https://github.com/qbittorrent/qBittorrent
+        - name: Container Source
+          url: https://github.com/linuxserver/docker-qbittorrent
+        - name: Chart Source
+          url: https://github.com/gabe565/charts/tree/main/charts/qbittorrent
+    apiVersion: v2
+    appVersion: version-5.0.3-r0
+    created: "2025-03-30T15:47:40.950574+02:00"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts
+      version: ~3.7.3
+    description: The qBittorrent project aims to provide an open-source software alternative
+      to µTorrent.
+    digest: 224cfaf94bc6eb827b3da8bea262dc3a1e3e6bcd4f0bb5fcfe372c594516a406
+    home: https://charts.gabe565.com/charts/qbittorrent/
+    icon: https://raw.githubusercontent.com/qbittorrent/qBittorrent/master/src/icons/qbittorrent-tray.svg
+    keywords:
+    - torrent
+    - bittorrent
+    kubeVersion: '>=1.22.0-0'
+    name: qbittorrent
+    sources:
+    - https://github.com/qbittorrent/qBittorrent
+    - https://github.com/linuxserver/docker-qbittorrent
+    type: application
+    urls:
+    - https://vincentkelleher.github.io/gabe565-charts/qbittorrent-0.4.1.tgz
+    version: 0.4.1
+generated: "2025-03-30T15:47:40.947826+02:00"
